@@ -1,0 +1,149 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+	width: 90%;
+	height: 650px;
+	margin: 15px auto;
+	border: 1px solid black;
+	background-color: Yellow;
+}
+header{
+	height: 140px;
+	border-bottom: #ff0000 solid 2px;
+}
+.logo-text img{
+	display: inline-block;
+	float: left;
+	width: 100px;
+	vertical-align: middle;
+	line-height: 100px;
+	padding: 5px;
+	padding-left: 5px;
+	padding-top: 15px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu {
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid red;
+}
+#menu ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+#menu ul li {
+    float: left;
+    width: 299.53px;
+    border: 2px solid green;
+    margin: 0;
+
+}
+#menu ul li li{
+    float: none;
+}
+#menu ul ul {
+    display: none;
+    margin: 0;
+}
+#menu ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid white;
+    background: green;
+    color: white;
+}
+#menu ul li a:hover {
+    color: black;
+}
+#menu ul li:hover {
+    background: limegreen;
+}
+#menu ul li:hover ul {
+    display: block;
+}
+
+h {
+	margin-left: 10px;
+}
+ul li{
+	margin-left: 40px;
+}
+.text h3{
+	float: left;
+	margin-top: 50px;
+}
+.contact h3, p{
+	float: left;
+	padding-left: 5px;
+	padding-top: 4px;
+}
+
+.text h1{
+	float: left;
+	width: 300px;
+	vertical-align: middle;
+	line-height: 100px;
+	padding: 5px;
+	padding-left: 5px;
+	padding-top: 15px;
+}
+.text h4{
+	clear: both;
+	float: left;
+	padding-left: 9.5%;
+	margin-top: -3%;
+}
+.content-right h1, span{
+	padding-left: 5px;
+}
+big{
+
+	width: 90%;
+	height: 500px;
+	border: 1px solid black;
+}
+#content {
+	
+	width: 99%;
+	height: 400px;
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+}
+.content-left{
+	display: inline-block;
+	width: 50%;
+	height: 5px;
+	float: left;
+	padding: 10px;
+}
+.content-right{
+	width: 33%;
+	height: 350px;
+	float: right;
+	clear: both;
+	margin-top: -10px;
+	border-left: 2px solid red;
+	padding-bottom: 10px;
+}
+footer {
+	clear: both;
+	width: 100%;
+	height: 10px;
+	padding-top: 10px;
+	border-top: 2px solid red;
+}
+#footer p{
+	float: right;
+	padding-right: 10px;
+}

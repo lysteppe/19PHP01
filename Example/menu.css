@@ -1,0 +1,16 @@
+#menu ul li{
+	width: 70%;
+	height: 50px;
+}
+#Menu ul li {
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	border: 1px solid blue;
+	width: 150px;
+	margin: 10px 20px;
+}
+
+ul li.active {
+	background-color: #BDBDBD;
+}

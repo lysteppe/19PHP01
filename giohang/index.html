@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Điện Thoại</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div id="content">
+        <div class="sanpham">
+            <img src="samsung-s10.jpg" alt="SamSung S10+ 512GB" onclick="getdata('samsung_s10')">
+        </div>
+        <div class="sanpham">
+            <img src="samsung-note9.jpg" alt="SamSung Note9 512GB" onclick="getdata('samsung_note9')">
+        </div>
+        <div class="sanpham">
+            <img src="samsung-s9.jpg" alt="samsung-S9" onclick="getdata('samsung_s9')">
+        </div>
+        <div class="sanpham">
+            <img src="samsung-a9.jpg" alt="samsung-a9" onclick="getdata('samsung_a9')">
+        </div>
+        <div class="sanpham">
+            <img src="samsung-a50.jpg" alt="samsung-a50" onclick="getdata('samsung_a50')">
+        </div>
+        <div class="sanpham">
+            <img src="samsung-a6.jpg" alt="samsung-a6" onclick="getdata('samsung_a6')">
+        </div>
+        <div id="sanpham_full">
+            <form action="">
+                <img src="" alt="default" id="default">
+                <div id="Show">
+                    <p>Tên sản phẩm:  <span id="name"></span></p>
+                    <p>Pin: <span id="pin"></span></p>
+                    <p>Ram: <span id="ram"></span></p>
+                    <p>Rom: <span id="rom"></span></p>
+                    <input type="button" id="them" value="Thêm vào giỏ" onclick="them_vao_gio()">
+                    
+                </form>
+            </div>
+        </div>
+        <a href="giohang.html" onclick="show()" target="_blank">Xem giỏ hàng</a>
+
+    </div>
+    <script src="tanggiam.js"></script>
+    <script src="giohang.js"></script>
+</body>
+</html>
