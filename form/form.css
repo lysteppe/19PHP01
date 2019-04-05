@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#account{
+	float: left;
+	padding-left: 27em;
+	width: 30%;
+	height: 530px;
+}
+#login{
+	border: 1px solid #888888;
+	margin: 10px;
+	padding: 10px;
+	height: 360px;
+	padding-left: 1em;
+
+}
+h1{
+	font-weight: bold;
+	text-align: center;
+	padding-left: 0.5em;
+}
+.firstname input{
+	width: 85%;
+	height: 25px;
+}
+.firstlastname{
+	padding-top: 7px;
+}
+.firstlastname input{
+	width: 85%;
+	height: 25px;
+}
+.email{
+	padding-top: 7px;
+}
+.email input{
+	width: 85%;
+	height: 25px;
+}
+.gender input{
+	vertical-align: middle;
+}
+.gender span {	
+	padding-top: 5px;
+	margin-left: 6px;
+}
+.gender p{
+	float: left;
+	padding-top: 5px;
+	margin-left: 6px;
+}
+.user {
+	margin-top: 0.5em;
+	float: left;
+	width: 95%;
+	height: 25px;
+}
+.user input{
+	width: 90%;
+	height: 25px;
+}
+.pass p {
+	margin-top: 0.5em;
+}
+.pass input{
+	width: 85%;
+	height: 25px;
+}
+.pass{
+	margin-top: 5.4em;
+}
+#submit{
+	margin-top: 0.5em;
+}
+.submit input{
+	width: 56px;
+	height: 25px;
+	margin: 0.5px;
+	float: left;
+}
+@media screen and (max-width: 1024px){
+	#account{
+		width: 50%;
+		padding-left: 15em;
+	}
+	#login{
+		width: 90%;
+		height: 350px;
+	}
+	.user input{
+	width: 90%;
+	height: 25px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#account{
+		width: 50%;
+		padding-left: 15em;
+	}
+	#login{
+		width: 90%;
+		height: 350px;
+	}
+	.user input{
+	width: 90%;
+	height: 25px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	#account{
+		width: 59%;
+		padding-left: 8em;
+	}
+	#login{
+		width: 90%;
+		height: 350px;
+	}
+	.user input{
+		width: 90%;
+		height: 25px;
+	}
+}
