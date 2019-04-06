@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+	<h1> Calculator</h1>
+	<form id="calculator" name="calculator">
+		<div id="calculator" class="calculator">			
+			<div>
+				<button id="clear" class="clear">C</button>
+				<input name="display" id="display" placeholder="0">
+			</div>
+			<div class="num">
+				<button data-num="7" type="button" value="7" onclick="document.calculator.display.value +='7'">7</button>
+				<button data-num="8" type="button" value="8"onclick="document.calculator.display.value +='8'">8</button>
+				<button data-num="9" type="button" value="9"onclick="document.calculator.display.value +='9'">9</button>
+				<button data-ops="plus" class="ops" type="button" value="/" onclick="chia()">/</button>
+			</div>
+			<div class="num">
+				<button class="num" data-num="4" type="button" value="4" onclick="document.calculator.display.value +='4'">4</button>
+				<button class="num" data-num="5" type="button" value="5" onclick="document.calculator.display.value +='5'">5</button>
+				<button class="num" data-num="6" type="button" value="6" onclick="document.calculator.display.value +='6'">6</button>
+				<button data-ops="times" class="ops" type="button" value="*" onclick="nhan()">*</button>
+			</div>
+
+			<div class="num">
+				<button class="num" data-num="1" type="button" value="1" onclick="document.calculator.display.value +='1'">1</button>
+				<button class="num" data-num="2" type="button" value="2" onclick="document.calculator.display.value +='2'">2</button>
+				<button class="num" data-num="3" type="button" value="3" onclick="document.calculator.display.value +='3'">3</button>
+				<button data-ops="minus" class="ops" type="button" value="-" onclick="tru()">-</button>
+			</div>
+
+			<div class="num">
+				<button class="num" data-num="0" type="button" value="0" onclick="document.calculator.display.value +='0'">0</button>
+				<button class="num" data-num="." type="button" value="." onclick="document.calculator.display.value +='.'">.</button>
+				<button id="equals" class="equals" data-result="" name="tinh" type="button" value="=" 
+						onclick="document.calculator.display.value = eval(document.calculator.display.value)">=</button>
+				<button data-ops="plus" class="ops" type="button" value="+" onclick="cong()">+</button>
+			</div>
+		</div>
+	</form>
+<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
